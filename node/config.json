@@ -1,0 +1,18 @@
+{
+    "port_protocol": 80,
+    
+    "database": {
+    	"host": "localhost",
+    	"user": "root",
+    	"password": "12341",
+    	"database": "Thinkrow"
+    },
+
+    "session": {
+        "secret": "Thinkrow-app",
+        "hash": "1234asd1234amsterdam123asdthinkRow"
+    },
+    "cookie": {
+        "secret": "amsterdam123asdthinkRow"
+    }
+}

@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.header{
+	background: rgba(0, 0, 0, 0.71);;
+	width: 100%;
+	min-height: 60px;
+	border-bottom: 1px solid;
+}
+
+.logo{
+	font-size: 3.895em;
+	padding-top: 5px;
+	color: rgb(143, 21, 18);
+	text-transform: uppercase;
+	letter-spacing: -0.04em;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #570505,
+				0 2px 0 #570505,
+				0 3px 0 #570505,
+				0 4px 0 #570505,
+				0 5px 0 #570505,
+				0 6px 1px rgba(0,0,0,.1),
+				0 0 5px rgba(0,0,0,.1),
+				0 1px 3px rgba(0,0,0,.3),
+				0 3px 5px rgba(0,0,0,.2),
+				0 5px 10px rgba(0,0,0,.25),
+				0 10px 10px rgba(0,0,0,.2),
+				0 20px 20px rgba(0,0,0,.15); 
+}
+
+.small{
+	font-size: 40px;
+	text-align: center;
+}
+
+.profile{
+	background-size: cover;
+	background: url(http://softfacade.com/static/i/main_slider_studio.jpg) 50% 0 no-repeat;
+	min-height: 350px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.overlay{
+	background: rgba(0, 0, 0, 0.25);
+	height: 350px;
+}
+
+.profile .content{
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+
+.profile .name{
+	font-size: 20px;
+	color:white;
+	font-weight:100;
+}
+
+.profile .location{
+	font-size: 15px;
+	color:white;
+	font-weight:100;
+}
+
+.about{
+	background: rgba(0, 0, 0, 0.95);
+	padding: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.about table{
+	border:0;
+	border-spacing: 1px;
+	width: 350px;
+	font-family: 'Noto Sans', sans-serif;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+.wrapper{
+	max-width: 1000px;
+	margin: -20px auto;
+	color:black;
+}
+
+.column1{
+	display: inline-block;
+	width: 50%;
+	padding: 20px;
+}
+
+.column2{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	padding: 20px 20px 20px 0;
+}
+
+.box{
+	border: 1px solid #e5e6e9;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.box .user{
+	margin-top: -15px;
+	margin-left: -10px;
+	display: inline-block;
+}
+
+.box .action{
+	display: inline-block;
+	font-size: 20px;
+	float: right;
+}
+
+.box .separator{
+	display: block;
+	margin-top: -8px;
+	border-bottom: 1px solid #e5e6e9;
+}
+
+.box .content{
+	padding: 10px;
+}
+
+.circle{
+	border-radius:90px; 
+}
+
+@media screen and (max-width: 800px){
+	.column1{
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 665px){
+	.column1{
+		display: block;
+		width: auto;
+	}
+
+	.column2{
+		display: block;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.box .box_name{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.box .box_name{
+		font-size: 11px;
+		margin-left:5px!important;
+	}
+}
+
+@font-face {
+	font-family: 'thinkRow';
+	src:url('../fonts/thinkRow.eot?-kfvjkl');
+	src:url('../fonts/thinkRow.eot?#iefix-kfvjkl') format('embedded-opentype'),
+		url('../fonts/thinkRow.woff?-kfvjkl') format('woff'),
+		url('../fonts/thinkRow.ttf?-kfvjkl') format('truetype'),
+		url('../fonts/thinkRow.svg?-kfvjkl#thinkRow') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'thinkRow';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera:before {
+	content: "\e600";
+}
+.icon-film:before {
+	content: "\e601";
+}
+.icon-video:before {
+	content: "\e602";
+}
+.icon-podcast:before {
+	content: "\e603";
+}
+.icon-screen:before {
+	content: "\e60c";
+}
+.icon-mobile:before {
+	content: "\e60d";
+}
+.icon-mobile2:before {
+	content: "\e60e";
+}
+.icon-tablet:before {
+	content: "\e60f";
+}
+.icon-user:before {
+	content: "\e60a";
+}
+.icon-users:before {
+	content: "\e610";
+}
+.icon-key:before {
+	content: "\e604";
+}
+.icon-lock:before {
+	content: "\e605";
+}
+.icon-wrench:before {
+	content: "\e606";
+}
+.icon-settings:before {
+	content: "\e611";
+}
+.icon-equalizer:before {
+	content: "\e612";
+}
+.icon-bug:before {
+	content: "\e607";
+}
+.icon-rocket:before {
+	content: "\e608";
+}
+.icon-switch:before {
+	content: "\e609";
+}
+.icon-signup:before {
+	content: "\e60b";
+}
+.icon-star:before {
+	content: "\e61b";
+}
+.icon-star2:before {
+	content: "\e61c";
+}
+.icon-heart:before {
+	content: "\e613";
+}
+.icon-thumbs-up:before {
+	content: "\e614";
+}
+.icon-thumbs-up2:before {
+	content: "\e615";
+}
+.icon-happy:before {
+	content: "\e616";
+}
+.icon-happy2:before {
+	content: "\e617";
+}
+.icon-close:before {
+	content: "\e61a";
+}
+.icon-checkmark-circle:before {
+	content: "\e618";
+}
+.icon-display:before {
+	content: "\e619";
+}

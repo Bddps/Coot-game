@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Thinkrow - {{name}}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="static/css/profile.css">
+</head>
+<body>
+	<section class="profile">
+		<div class="overlay">
+			<div class="header">
+				<div class="logo small">Thinkrow</div>
+			</div>
+
+			<div class="content">
+				<div class="image">
+					<img class="circle" width="160" height="160" src="{{profile_image}}" alt="{{name}}">
+				</div>
+
+				<div class="name">{{name}}</div>
+				<div class="location">{{location}}</div>
+			</div>
+		</div>
+
+		<section class="about">
+			<table>
+				<tr>
+				  <td>Created rows</td>
+				  <td>Points</td> 
+				  <td>Favorite rows</td>
+				</tr>
+				<tr>
+				  <td>220</td>
+				  <td>10</td> 
+				  <td>94</td>
+				</tr>
+			</table>
+		</section>
+	</section>
+
+	<div class="wrapper">
+		<section class="column1">
+
+			<div class="box">
+				<div class="user">
+					<img class="circle" width="50" height="50" src="{{profile_image}}">
+					<h4 class="box_name" style="display:inline-block;vertical-align:top; margin-left:10px; font-weight:normal;">{{name}}</h4>
+				</div>
+
+				<div class="action">
+					<div class="icon-heart" style="display:inline-block;color:#570505"></div>
+					<div class="icon-star" style="display:inline-block;"></div>
+				</div>
+				<div class="separator"></div>
+
+				<div class="content">
+					<img style="width:100%" src="http://cdn-images.deezer.com/images/cover/e0db2695bc11b3a5de7053847d6d9552/500x500-000000-80-0-0.jpg"></img>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="column2">
+			<div class="box">
+				Test 2
+			</div>
+		</section>
+	</div>
+
+	<script type="text/javascript">
+		 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+		 alert('device-width: ' + width);
+	</script>	
+</body>

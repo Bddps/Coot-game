@@ -1,76 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="es_ES">
 <head>
 	<meta charset="utf-8">
-	<title>Thinkrow - {{name}}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+
+	<title>Thinkrow - Daniel Eduardo Garrido Torres</title>
+
 	<link rel="stylesheet" type="text/css" href="static/css/profile.css">
+	<link rel="stylesheet" type="text/css" href="static/css/flag-icon.min.css">
 </head>
 <body>
-	<section class="profile">
-		<div class="overlay">
-			<div class="header">
-				<div class="logo small">Thinkrow</div>
+
+	<header class="top">
+		<div class="logo inline">
+			<div class="align-top medium-top-align inline">Thinkrow</div>
+			
+			<div class="user-scope inline">
+				<div class="user">
+					<img class="inline image-circle" src="https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/t1.0-9/p526x296/1932248_367160696759273_448810932_n.jpg" width="50" height="50">
+					<div class="icon-play2 inline vertical-align" style="margin-top:12px"></div>
+				</div>
 			</div>
 
-			<div class="content">
-				<div class="image">
-					<img class="circle" width="160" height="160" src="{{profile_image}}" alt="{{name}}">
-				</div>
+			<div class="search inline">
+				<input class="input vertical-align" type="text" name="finder" placeholder="Search on Thinkrow">
+				<input type="submit" class="botton inline vertical-align" value="Buscar">
+			<div>
 
-				<div class="name">{{name}}</div>
-				<div class="location">{{location}}</div>
+		</div>
+	</header>
+
+	<div class="front-column inline">
+		<section class="profile">
+			<div class="overlay">
+				<div class="content">
+					<div class="image">
+						<img class="image-circle" width="130" height="130" src="https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/t1.0-9/p526x296/1932248_367160696759273_448810932_n.jpg" alt="Yuliana sanchez vives">
+					</div>
+
+					<div class="name">Yuliana Sanchez Vives</div>
+					<div class="location">Barranquilla, Colombia</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="module">
+			<div class="title great-font">Mis rows subidos</div>
+			<div class="separator" style="margin-top: 10px;"></div>
+			<div class="content">
+				IMAGENES
 			</div>
 		</div>
 
-		<section class="about">
-			<table>
-				<tr>
-				  <td>Created rows</td>
-				  <td>Points</td> 
-				  <td>Favorite rows</td>
-				</tr>
-				<tr>
-				  <td>220</td>
-				  <td>10</td> 
-				  <td>94</td>
-				</tr>
-			</table>
-		</section>
-	</section>
-
-	<div class="wrapper">
-		<section class="column1">
-
-			<div class="box">
-				<div class="user">
-					<img class="circle" width="50" height="50" src="{{profile_image}}">
-					<h4 class="box_name" style="display:inline-block;vertical-align:top; margin-left:10px; font-weight:normal;">{{name}}</h4>
-				</div>
-
-				<div class="action">
-					<div class="icon-heart" style="display:inline-block;color:#570505"></div>
-					<div class="icon-star" style="display:inline-block;"></div>
-				</div>
-				<div class="separator"></div>
-
-				<div class="content">
-					<img style="width:100%" src="http://cdn-images.deezer.com/images/cover/e0db2695bc11b3a5de7053847d6d9552/500x500-000000-80-0-0.jpg"></img>
-				</div>
-			</div>
-
-		</section>
-
-		<section class="column2">
-			<div class="box">
-				Test 2
-			</div>
-		</section>
 	</div>
 
+	<div class="rows-column inline vertical-align">
+		<div class="module">
+			<div class="user">
+				<img class="image-circle" width="50" height="50" src="https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/t1.0-9/p526x296/1932248_367160696759273_448810932_n.jpg">
+				<h4 class="box_name" style="display:inline-block;vertical-align:top; margin-left:10px; font-weight:normal;">Yuliana Sanchez Vives</h4>
+			</div>
+
+			<div class="action">
+				<div class="icon-heart" style="display:inline-block;color:#570505"></div>
+				<div class="icon-star" style="display:inline-block;"></div>
+			</div>
+			<div class="separator"></div>
+
+			<div class="content">
+				<img style="width:100%" src="http://cdn-images.deezer.com/images/cover/e0db2695bc11b3a5de7053847d6d9552/500x500-000000-80-0-0.jpg"></img>
+			</div>
+		</div>
+	</div>
+	
 	<script type="text/javascript">
 		 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-		 alert('device-width: ' + width);
+		 console.log('[DEBUGGER] Device-width: ' + width);
 	</script>	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </body>
